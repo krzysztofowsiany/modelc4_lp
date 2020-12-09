@@ -41,10 +41,6 @@ gulp.task('private-policy-sass', () => {
         .pipe(gulp.dest('./assets/css'));
 });
 
-
-
-
-
 gulp.task('private-policy-sassMin', () => {
     return gulp.src('./build/sass/private-policy.scss')
         .pipe(sourcemaps.init())
@@ -58,11 +54,9 @@ gulp.task('private-policy-sassMin', () => {
         .pipe(gulp.dest('./assets/css'));
 });
 
-
 gulp.task('watch', () => {
     gulp.watch('./build/sass/**/*.scss', gulp.parallel('sass', 'sassMin','private-policy-sass', 'private-policy-sassMin'));
 });
-
 
 gulp.task('build', 
     gulp.series(['sass', 'sassMin','private-policy-sass', 'private-policy-sassMin']));
