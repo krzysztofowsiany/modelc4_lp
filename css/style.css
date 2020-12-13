@@ -8936,3 +8936,26 @@ textarea.form-control {
       font-weight: 700;
       padding: 10px;
     }
+
+    h4.modal-title{
+      text-align: center;
+      }
+
+h6.modal-alert{
+        text-align: center;
+        font-weight: bold;
+        }
+        
+p.modal-center {
+  text-align: center;
+
+}        
+
+    div.modal-content {
+      padding: 2em;
+      color:black;
+    }
+    span.modal-newsletter-info{
+      text-align: center;
+      font-size: 0.8em;
+    }
