@@ -30,11 +30,11 @@ bg-content-2 {
 }
 .subscribe-1-name {
   background-color: var(--c1);
-
   border-style: solid;
   border-color: var(--c5);
   border-radius: 5px;
   color: var(--c5);
+  margin-bottom: 0px;
 }
 .subscribe-1-btn{
   background-color:var(--c1);
