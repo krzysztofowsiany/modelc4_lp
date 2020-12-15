@@ -1,0 +1,31 @@
+:root {
+  --c1: #344d90;
+  --c2: #5cc5ef; 
+  --c3: #ffb745; 
+  --c4: #e7552c; 
+  --c5: #ffffff; 
+  --c6: #000000; 
+}
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.footer {
+  background-color: --c1;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.4rem;
+}
+strong {
+  color:var(--c4);
+}
+span {
+  color:var(--c2);
+}
