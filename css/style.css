@@ -22,7 +22,7 @@ bg-content-2 {
 
 h1.about {
   font-weight: bold;
-  color: var(--c6);
+  color: var(--c6);  
 }
 
 h2.about {
@@ -32,6 +32,19 @@ h2.about {
 p.about {
   font-size: 1.5rem;
 }
+
+p.description {
+  font-size: 1.2rem;
+}
+
+div.box {
+  background-color: var(--c3);
+  border-color: var(--c4);
+  border-style: solid;
+  border-radius: 1vw;
+
+}
+
 
 /* subscribe1 */
 .subscribe-1-bg {
