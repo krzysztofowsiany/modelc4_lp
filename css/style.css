@@ -154,8 +154,8 @@ h2.share {
 }
 /* share */
 
-nav { padding: 2rem;}
+#top { padding: 2rem;}
 
-nav .justify-content-between {
+#top .justify-content-between {
   align-items: center;
 }
