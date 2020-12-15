@@ -20,6 +20,19 @@ bg-content-2 {
   background-color: cornflowerblue;
 }
 
+h1.about {
+  font-weight: bold;
+  color: var(--c6);
+}
+
+h2.about {
+  color: var(--c6);
+}
+
+p.about {
+  font-size: 1.5rem;
+}
+
 /* subscribe1 */
 .subscribe-1-bg {
   background-color: var(--c2);
@@ -39,13 +52,13 @@ bg-content-2 {
 .subscribe-1-btn{
   background-color:var(--c1);
   color: var(--c5);
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 
 .subscribe-1-btn:hover{
   background-color: var(--c4);
   color:var(--c5);
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 /* subscribe1 */
 
@@ -75,7 +88,7 @@ bg-content-2 {
 
 p.subscribe-2-text {
   color:var(--c5);
-  font-size:1em;
+  font-size:1rem;
 }
 
 h2.subscribe-2 {
@@ -94,7 +107,7 @@ h1.subscribe-2 {
 .subscribe-3-btn{
   background-color: var(--c4);
   color: var(--c5);
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 .subscribe-3-btn:hover{
@@ -121,7 +134,7 @@ h1.subscribe-4 {
 .subscribe-4-btn{
   background-color: var(--c3);
   color: var(--c6);
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 
 .subscribe-4-btn:hover {
