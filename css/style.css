@@ -1,9 +1,10 @@
 :root {
-  --c1: #344d90;
-  --c2: #5cc5ef; 
-  --c3: #ffb745; 
+  --c1: #1f487c;
+  --c2: #1081df; 
+  --c3: #5fb7a1; 
   --c4: #e7552c; 
   --c5: #ffffff; 
+  --c7: #212529; 
   --c6: #000000; 
 }
 
@@ -29,23 +30,42 @@ h2.about {
   color: var(--c6);
 }
 
+h3.box {
+  font-weight: bold;
+}
+
 p.about {
   font-size: 1.5rem;
 }
 
-p.description {
+p.box {
   font-size: 1.2rem;
+  vertical-align: middle;
 }
 
-div.box {
+img {
+  max-width: 100%
+}
+
+div.box, .box2, .box3, .box4  {
   background-color: var(--c3);
-  border-color: var(--c4);
+  border-color: var(--c6);
   border-style: solid;
-  border-radius: 1vw;
+  color: var(--c5);
 
 }
 
+.box2 {
+  background-color: var(--c2);
+}
 
+.box3 {
+  background-color: var(--c1);
+}
+
+.box4 {
+  background-color: var(--c7);
+}
 /* subscribe1 */
 .subscribe-1-bg {
   background-color: var(--c2);
@@ -77,7 +97,7 @@ div.box {
 
 /* subscribe2 */
 .subscribe-2-bg {
-  background-color: var(--c4);
+  background-color: var(--c7);
 }
 .subscribe-2-bold {
   font-weight: bold;
@@ -92,11 +112,11 @@ div.box {
   border-color:  var(--c5);
 }
 .subscribe-2-btn:hover{
-  background-color:  var(--c5);
+  background-color:  var(--c7);
   color: var(--c4);
   border-style: solid;
   border-width: 5px;
-  border-color: var(--c5);
+  border-color: var(--c4);
 }
 
 p.subscribe-2-text {
@@ -107,14 +127,23 @@ p.subscribe-2-text {
 h2.subscribe-2 {
   color:var(--c5);
 }
-h1.subscribe-2 {
+
+h2.subscribe-2 {
   color:var(--c5);
 }
 /* subscribe2 */
 
 /* subscribe3 */
 .subscribe-3-bg {
-  background-color: var(--c3);
+  background-color: var(--c2);
+}
+
+h2.subscribe-3 {
+  color:var(--c5);
+}
+
+h2.subscribe-3 {
+  color:var(--c5);
 }
 
 .subscribe-3-btn{
@@ -141,12 +170,22 @@ h2.subscribe-4 {
 }
 
 h1.subscribe-4 {
-  font-weight: bold;
+  color:var(--c5);
 }
 
+h3.subscribe-4 {
+  color:var(--c5);  
+}
+
+strong.subscribe-4 {
+  color:var(--c1);  
+
+}
+
+
 .subscribe-4-btn{
-  background-color: var(--c3);
-  color: var(--c6);
+  background-color: var(--c7);
+  color: var(--c5);
   font-size: 1.6rem;
 }
 
@@ -159,7 +198,7 @@ h1.subscribe-4 {
 
 /* contact */
 .contact-bg {
-  background-color:var(--c6);
+  background-color:var(--c7);
 }
 
 h2.contact {
@@ -176,6 +215,5 @@ h2.contact {
 h2.share {
   color:var(--c6);
   font-weight: bold;
-
 }
 /* share */
