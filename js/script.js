@@ -24,3 +24,14 @@ window.addEventListener("load", function () {
         }
     })
 });
+
+$(document).ready(function () {
+    $("#join_button").on("click", function () {
+      var form = document.getElementById("newsletter-form");
+      form.submit();
+      return false;
+    });
+  });
+
+  
+

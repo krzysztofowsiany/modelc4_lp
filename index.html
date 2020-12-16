@@ -21,7 +21,7 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-  <script src="js/cookies.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <!-- MailerLite Universal -->
@@ -184,7 +184,7 @@
   <section class="subscribe-3-bg text-center">
     <div class="fluid-container">
       <div class="row align-items-center ">
-        <div class="col p-4">
+        <div class="col">
           <h2 class="subscribe-3 pb-2">Jeżeli masz problem z odczytaniem swojego diagramu sprzed tygodnia?</h2>
           <h2 class="subscribe-3 pb-2">To zapisz się na listę. Nauczysz się rysować piękne diagramy, których
             zazdrościłby ci nawet sam Picasso.</h2>
@@ -192,7 +192,7 @@
       </div>
 
       <div class="row align-items-center ">
-        <div class="col pb-4">
+        <div class="col">
           <button class="btn subscribe-3-btn p-4" href="javascript:;" onclick="ml_webform('show')">
             <i class="bi bi-arrow-right-square-fill"></i>&nbsp;
             Dawaj te maile, ale już!</button>
@@ -203,8 +203,8 @@
   <!-- END SUBSCRIBE 3 -->
 
   <!-- CONTENT-3 -->
-  <section class="bg-content-3 text-center">
-    <div class="fluid-container pt-4">
+  <section class="bg-content-3 text-center pt-4">
+    <div class="fluid-container">
       <div class="row">
         <div class="col">
           <h1 class="about">Mentor programu</h1>
@@ -315,16 +315,7 @@
 
     </div>
   </footer>
-  <script>
-    $(document).ready(function () {
-      $("#join_button").on("click", function () {
-        var form = document.getElementById("newsletter-form");
-        form.submit();
-        return false;
-      });
-    });
-  </script>
-  <!--Start of Tawk.to Script-->
+  
   <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date();
@@ -338,9 +329,7 @@
       s0.parentNode.insertBefore(s1, s0);
     })();
   </script>
-  <!--End of Tawk.to Script-->
-
-  <!-- MailerLite Universal -->
+  
   <script>
     var ml_webform = ml_account('webforms', '3196816', 'c9t7j3', 'load');
     ml_webform('animation', 'fadeIn');

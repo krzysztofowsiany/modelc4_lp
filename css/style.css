@@ -44,7 +44,7 @@ p.box {
 }
 
 img {
-  max-width: 100%
+  max-width: 100%;
 }
 
 div.box, .box2, .box3, .box4  {
@@ -217,3 +217,5 @@ h2.share {
   font-weight: bold;
 }
 /* share */
+
+.row { margin: 0; }
