@@ -13,12 +13,30 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-bg-content-1 {
-  background-color: white;
+.content-1-bg {
+  background-color: var(--c5);
 }
 
-bg-content-2 {
-  background-color: cornflowerblue;
+h1.content-1{
+  color: var(--c6);
+  font-weight: bold;
+}
+
+h4.points{
+  color: var(--c6);
+}
+
+.content-2-bg {
+  background-color: var(--c5);
+}
+
+h1.content-2{
+  color: var(--c4);
+  font-weight: bold;
+}
+
+h2.content-2{
+  color: var(--c4);
 }
 
 h1.about {
@@ -104,6 +122,18 @@ div.box, .box2, .box3, .box4  {
   color: var(--c1);
 }
 
+h1.subscribe-2{
+  color: var(--c4);
+  font-weight: bold;
+}
+
+h2.subscribe-2{
+  color: var(--c4);
+}
+h3.subscribe-2{
+  color: var(--c4);
+}
+
 .subscribe-2-btn{
   color: var(--c5);
   font-size: 1.8em;
@@ -124,13 +154,6 @@ p.subscribe-2-text {
   font-size:1rem;
 }
 
-h2.subscribe-2 {
-  color:var(--c5);
-}
-
-h2.subscribe-2 {
-  color:var(--c5);
-}
 /* subscribe2 */
 
 /* subscribe3 */

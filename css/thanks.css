@@ -14,7 +14,7 @@ body {
 }
 
 div.footer {
-  background-color: --c1;
+  background-color: var(--c1);
 }
 
 h1 {
