@@ -9,8 +9,13 @@
 }
 
 
+html {
+  overflow-y: hidden;
+}
+
 body {
-	font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  overflow-y: hidden;
 }
 
 .content-1-bg {
@@ -241,4 +246,5 @@ h2.share {
 }
 /* share */
 
-.row { margin: 0; }
+.row { margin: 0; 
+}
