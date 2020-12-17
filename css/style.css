@@ -9,6 +9,10 @@
 }
 
 
+img.top {
+  margin: 0.4rem;
+}
+
 html {
   overflow-x: hidden;
 }
