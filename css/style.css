@@ -52,6 +52,7 @@ h1.content-1{
 
 h4.points{
   color: var(--c6);
+  margin-bottom: 1rem;
 }
 
 .content-2-bg {
