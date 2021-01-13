@@ -32,84 +32,74 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
-      id="ftco-navbar"
-    >
+    <header class="text-center bg-light">
       <div class="container">
-        <a class="navbar-brand" href="index.html"
-          >Kurs <span>C4</span> dla .NETu.</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#ftco-nav"
-          aria-controls="ftco-nav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="oi oi-menu"></span> Menu
-        </button>
-
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="#kurs" class="nav-link">Kurs</a>
-            </li>
-            <li class="nav-item"><a href="#c4" class="nav-link">O C4</a></li>
-            <li class="nav-item">
-              <a href="#trainer" class="nav-link">Prowadzący</a>
-            </li>
-            <li class="nav-item">
-              <a href="#agenda" class="nav-link">Agenda</a>
-            </li>
-            <li class="nav-item">
-              <a href="#newsletter" class="nav-link">Newsletter</a>
-            </li>
-            <li class="nav-item cta mr-md-2">
-              <a href="#pricing_tables" class="nav-link">Dołącz do kursu</a>
-            </li>
-          </ul>
+        <div class="row align-items-center">
+          <div class="col-md-8">
+          <h2 class="m-4">Kurs C4 dla .NETu.</h2>
         </div>
+        <div class="col-md-4">
+            <a href="#pricing_tables" class="btn btn-primary p-2">Dołącz do kursu</a>
+         </div>
+
       </div>
-    </nav>
+    </div>
+  </header>
     <!-- END nav -->
 
-    <div
-      class="hero-wrap js-fullheight"
-      id="kurs"
-      style="background-image: url('images/bg_1.jpg')"
-      data-stellar-background-ratio="0.5"
-    >
-      <div class="overlay"></div>
+
+
+    <section >
       <div class="container">
-        <div
-          class="row no-gutters slider-text js-fullwidth js-fullheight align-items-center justify-content-start"
-          data-scrollax-parent="true"
-        >
-          <div
-            class="col-xl-10 ftco-animate"
-            data-scrollax=" properties: { translateY: '70%' }"
-          >
-            <h1
-              class="mb-4"
-              data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
-            >
-              Kurs <br /><span>C4</span> dla .NETu
-            </h1>
-            <div id="timer" class="d-flex mb-3">
-              <div class="time" id="days"></div>
-              <div class="time pl-2" id="hours"></div>
-              <div class="time pl-2" id="minutes"></div>
-              <div class="time pl-2" id="seconds"></div>
-            </div>
+        <div class="row justify-content-center  m-4 pb-3">
+
+          <div class="col-md-6 d-flex align-items-center text-center heading-section   ftco-animate ">
+            <h2 class="m-4 text-primary ">Dlaczego powstał kurs C4 dla .NETu?</h2>
+          </div>
+
+          <div class="col-md-6  heading-section  border border-primary  text-center   rounded border-5 ftco-animate">
+            <h3>Mając przez wiele lat styczność z tworzeniem i projektowaniem systemów informatycznych.</h3>
+            <h3>Przeważnie natrafiałem na problem z tworzeniem <strong>zrozumiałych schematów</strong> architektonicznych.</h3>
+            <h3><strong>Model C4</strong> pozwala zaprowadzić ład i porządek.</h3>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <section class="ftco-counter img" id="c4">
+
+    <section class="text-center bg-secondary">
+      <div class="container">
+        <div class="row justify-content-center text-center heading-section  ftco-animate">
+            <div class="col-md-8 ">
+              <h2 class="m-4 text-warning">Do końca sprzedaży pozostało</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center ">
+          <div class="col-md-8 ">
+
+          <div id="timer" class="d-flex display-2">
+            <div class="time text-warning" id="days"></div>
+            <div class="time pl-2 text-warning" id="hours"></div>
+            <div class="time pl-2 text-warning" id="minutes"></div>
+            <div class="time pl-2 text-warning" id="seconds"></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+     
+    <section >
+      <div class="container">
+        <div class="row justify-content-center text-center  ftco-animate">
+            <div class="col-md-8 heading-section">
+        <h2 class="pt-2 mt-4 ">Fakty o Modelu C4</h2>
+        </div>
+      </div>
+    </section>
+
+      <section class="ftco-counter img" >
       <div class="container">
         <div class="row d-flex">
           <div class="col-md-6 d-flex">
@@ -118,10 +108,10 @@
               style="background-image: url(images/about.jpg)"
             ></div>
           </div>
-          <div class="col-md-6 pl-md-5 py-5">
+
+            <div class="col-md-6 pl-md-5 py-5">
             <div class="row justify-content-start pb-3">
-              <div class="col-md-12 heading-section ftco-animate">
-                <h2 class="mb-4"><span>Fakty</span> o C4</h2>
+              <div class="col-md-12 heading-section ftco-animate text-dark">                
                 <p>
                   <b>C4</b> to opracowana przez <b>Simona Browna</b> metoda na
                   opisywanie architektury.
@@ -210,7 +200,7 @@
                       <span class="flaticon-windows-1"></span>
                     </div>
                     <strong class="number">UML</strong>
-                    <span>Stosowany do opisu<br />C4 - COde</span>
+                    <span>Stosowany do opisu<br />C4 - Code</span>
                   </div>
                 </div>
               </div>
@@ -235,11 +225,13 @@
       </div>
     </section>
 
-    <section class="ftco-section" id="trainer">
+    <!--PROWADZĄCY KURS-->
+    <section >
       <div class="container">
         <div class="row justify-content-center mb-1 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2><span>Prowadzący</span> kurs</h2>
+            TODO: więcej informacji o mnie, zmiana zdjęcia, białe nie zachęca.
+            <h2>Instruktor</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -251,10 +243,11 @@
                 alt="Krzysztof Owsiany - MrDev.pl"
               />
               <div class="text text-center py-3">
-                <h3>Krzysztof Owsiany</h3>
-                <p class="position">Programista .NET</p>
-                <p class="position">Prelegent</p>
-                <p class="position">Trener</p>
+                <h2>Krzysztof Owsiany</h2>
+                <p class="position text-primary">Ponad 11 lat doświadczenia jako programista</p>
+                <p class="position text-primary">Prelegent na polskiej scenie IT</p>
+                <p class="position text-primary">Trener</p>
+
                 <ul class="ftco-social mt-3">
                   <li class="ftco-animate">
                     <a href="https://mrdev.pl/tw"
@@ -279,11 +272,39 @@
       </div>
     </section>
 
-    <section class="ftco-section bg-light" id="agenda">
+
+    <section class="m-2 bg-primary" id="pricing_tables">
+      <div class="container">
+        <div class="row justify-content-center heading-section">
+            <h2 class="mb-1">Co otrzymasz w kursie?</h2>
+        </div>
+        
+        <div class="row justify-content-center text-center pt-4 pb-4">
+          <div class="col-md-3 ftco-animate bg-light m-1">
+            <h4>6 tygodniowy program.</h4>
+          </div>
+
+          <div class="col-md-3 ftco-animate bg-light m-1">
+              <h4>Dostęp do wszystkich materiałów i poprawek jakie powstaną w przyszłości.</h4>
+          </div>
+
+          <div class="col-md-3 ftco-animate bg-light m-1">                  
+            <h4>Dostęp do zamkniętej grupy na facebooku.</h4>
+          </div>
+
+          <div class="col ftco-animate bg-light m-1">                  
+            <h4>Bonusy</h4>
+        </div>
+      </div>
+    </section>
+
+
+    <!--AGENDA-->
+    <section class="pt-2 mt-2 bg-light" id="agenda">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Agenda</span> kursu</h2>
+          <div class="col text-center heading-section ftco-animate">
+            <h2 class="mt-4">Agenda kursu</h2>
           </div>
         </div>
         <div class="ftco-search">
@@ -379,16 +400,9 @@
                   <div class="title">Zakończenie</div>
                   <span class="module">moduł 7</span>
                 </a>
-
-                <!--
-				<a class="nav-link ftco-animate" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab" aria-controls="v-pills-8" aria-selected="false">
-					<div class="title">
-						Demo
-					</div>
-				</a>
--->
               </div>
             </div>
+
             <div class="col-md-12 tab-wrap">
               <div class="tab-content" id="v-pills-tabContent">
                 <!-- MODUŁ 1 -->
@@ -877,46 +891,7 @@
                   </div>
                 </div>
 
-                <!-- DEMO -->
-                <div
-                  class="tab-pane fade"
-                  id="v-pills-8"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-day-8-tab"
-                >
-                  <h2 class="module">Demo</h2>
-
-                  <div class="speaker-wrap ftco-animate d-flex p-1">
-                    <div
-                      class="img speaker-img mr-2"
-                      style="background-image: url(images/person_1.jpg)"
-                    ></div>
-                    <div class="text pl-md-5">
-                      <h2>Demo 1</h2>
-                      <p>.</p>
-                    </div>
-                  </div>
-                  <div class="speaker-wrap ftco-animate d-flex p-1">
-                    <div
-                      class="img speaker-img mr-2"
-                      style="background-image: url(images/person_2.jpg)"
-                    ></div>
-                    <div class="text pl-md-5">
-                      <h2>Demo 2</h2>
-                      <p>.</p>
-                    </div>
-                  </div>
-                  <div class="speaker-wrap ftco-animate d-flex p-1">
-                    <div
-                      class="img speaker-img mr-2"
-                      style="background-image: url(images/person_3.jpg)"
-                    ></div>
-                    <div class="text pl-md-5">
-                      <h2>Demo 3</h2>
-                      <p>.</p>
-                    </div>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -924,290 +899,164 @@
       </div>
     </section>
 
-    <!-- HAPPY CLIENTS
-    <section class="ftco-section testimony-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Testimonial</span>
-            <h2 class="mb-4"><span>Happy</span> Clients</h2>
-          </div>
-        </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Roger Scott</p>
-                    <span class="position">Marketing Manager</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Roger Scott</p>
-                    <span class="position">Interface Designer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Roger Scott</p>
-                    <span class="position">UI Designer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Roger Scott</p>
-                    <span class="position">Web Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Roger Scott</p>
-                    <span class="position">System Analyst</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
--->
+    
+
 
     <section class="ftco-section bg-light" id="pricing_tables">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-1"><span>Cena </span> Kursu</h2>
+          <div class="col heading-section ftco-animate text-center">
+            TODO: CENA I ZA CO TAK OGÓLNIE
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 ftco-animate">
+        <div class="row justify-content-center ">
+          <div class="col-md-8 ftco-animate">
             <div class="block-7">
               <div class="text-center">
-                <h1>Simple</h1>
-                <span class="price"
-                  ><sup>zł</sup> <span class="number">128</span></span
-                >
-                <span class="excerpt d-block">bezterminowo</span>
-
-				<h3 class="heading-2 my-4">Dostęp do:</h3>
                 <ul class="pricing-text mb-5">
-                  <li>6 tygodniowego programu</li>
-				  <li>Lekcji video</li>				  
-				  <li>Zadań domowych</li>
-					<li><br/> </li>
-					<li><br/></li>
-
-				</ul>
-				<div class="row justify-content-center">
-					<img src="images/satisfaction_guarante.png" />
-				  </div>
-                <a href="#newsletter" class="btn btn-primary d-block px-2 py-3"
-                  >Dołącz do kursu.</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- next price-->
-          <div class="col-md-4 ftco-animate">
-            <div class="block-7">
-              <div class="text-center">
-                <h1>Self</h1>
-                <span class="price"
-                  ><sup>zł</sup> <span class="number">256</span></span
-                >
-                <span class="excerpt d-block">bezterminowo</span>
-
-                <h3 class="heading-2 my-4">Dostęp do:</h3>
-                <ul class="pricing-text mb-5">
-					<li>Tego co jest w planie Simple</li>
-                  <li><b>+ Repozytorium z kodem</b></li>
-                  <li><b>+ Webinarów</b></li>
-                  <li><b>+ Nagrań audio do pobrania i słuchania</b></li>
-				</ul>
-				
+                  <li>6 tygodniowy program</li>
+                  <li>Bezterminowy dostęp</li>
+                  <li>Lekcje video</li>				  
+                  <li>Zadania domowe</li>
+                  <li>Repozytorium z kodem</li>
+                  <li>Webinary</li>
+                  <li>Nagrania audio do pobrania i słuchania</li>
+                  <li>Zamknięta grupa uczestników na facebooku</li>
+                  <li>Weryfikacja zadań</li>
+				        </ul>
+        <span class="price"> <span class="number">399</span><sup>zł netto</sup></span>
                 <div class="row justify-content-center">
-                  <img src="images/satisfaction_guarante.png" />
+                  <img src="images/gwarancja-satysfakcji-ikona.png" />
 				</div>
 				
-                <a href="#newsletter" class="btn btn-primary d-block px-2 py-3"
-                  >Dołącz do kursu</a
-                >
+                <a href="#newsletter" class="btn btn-primary d-block px-2 py-3">Dołącz do kursu</a>
               </div>
             </div>
           </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="block-7">
-              <div class="text-center">
-                <h1>Help</h1>
-                <span class="price"
-                  ><sup>zł</sup> <span class="number">512</span></span
-                >
-                <span class="excerpt d-block">bezterminowo</span>
-
-                <h3 class="heading-2 my-4">Dostęp do:</h3>
-                <ul class="pricing-text mb-5">
-                  <li>Tego co jest w planie Self</li>
-
-                  <li><b>+ Zamkniętej grupy uczestników na facebooku</b></li>
-				  <li><b>+ Weryfikacji zadań</b></li>
-                  <li><br/></li>
-				  
-				</ul>
-				
-                <div class="row justify-content-center">
-                  <img src="images/satisfaction_guarante.png" />
-                </div>
-                <a href="#newsletter" class="btn btn-primary d-block px-2 py-3"
-                  >Dołącz do kursu</a
-                >
-              </div>
-            </div>
           </div>
+      </div>
+    </section>
+
+
+    <section class="bg-dark m-4">
+      <div class="container  ">
+        <div class="row d-flex justify-content-center ">
+          <div class="col-md-7 text-center  heading-section  ftco-animate mb-4 bt-4">
+            <h2 class="text-light p-4">Do kiedy można kupić?</h2>
+            <h3 class="text-light">Oferta ważna jest do <strong>20.00, 7 lutego 2021 roku</strong>.</h3>
+            <h3 class="text-light">Ponowne otwarcie sprzedaży dopiero w <strong>czerwcu 2021 roku</strong>.</h3>
+            <a href="#pricing_tables" class="btn btn-primary p-2"><h2 class="text-light">Nie zwlekaj! Dołącz już teraz!</h2></a>
+          </div>
+        </div>
+      </div>
+    </section>                  
+
+
+  
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-7 text-center heading-section heading-section-black ftco-animate mb-4 bt-4">
+            <h2>TODO: CALL TO ACTION</h2>
+          </div>
+        </div>
+      </div>
+    </section>                  
+
+
+
+    <section >
+      <div class="container">
+        <div class="row justify-content-center text-center heading-section  ftco-animate">
+            <div class="col-md-8 ">
+              <h2 class="m-4">Do końca sprzedaży pozostało już tylko</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center ">
+          <div class="col">
+          <div id="timer" class="d-flex ">
+            <div class="time" id="days"></div>
+            <div class="time pl-2" id="hours"></div>
+            <div class="time pl-2" id="minutes"></div>
+            <div class="time pl-2" id="seconds"></div>
+          </div>
+        </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section bg-light">
+   
+    <section class="pt-4 mt-4 bg-warning">
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div
             class="col-md-7 text-center heading-section heading-section-black ftco-animate mb-4 bt-4"
           >
-            <h2>Gwarancja satysfakcji</h2>
+            <h2 class="m-2">Gwarancja satysfakcji</h2>
+            <h4>
+              Na kurs udzielana jest 100% gwarancja satysfakcji. Oznacza to, że możesz zwrócić kurs do 
+              <strong>10 marca 2021</strong>.
+              Bez podania przyczyny.
+            </h4>
 
+            <h3><strong>Nic nie ryzykujesz!</strong></h3>
             <div class="ftco-animate mb-4 bt-4">
-              <img src="images/satisfaction_guarante_big.png" />
+              <img src="images/gwarancja-satysfakcji-ikona.png" />
             </div>
-
-            <div class="text-center ftco-animate mb-4 bt-4">
-              <h4>
-                Na kurs udzielana jest 100% gwarancja satysfakcji. Oznacza to,
-                że możesz zwrócić kurs w przeciągu 30 dni od zakupu.
-              </h4>
-              <h4>
-                Wystarczy, że napiszesz do mnie na
-                <a href="mailto:krzysztof@mrdev.pl">krzysztof@mrdev.pl</a>.
-              </h4>
-            </div>
+            <h4>
+              Wystarczy, że napiszesz do mnie na
+              <a href="mailto:krzysztof@modelc4.pl">krzysztof@modelc4.pl</a>.
+            </h4>
           </div>
         </div>
       </div>
     </section>
 
-    <!--SUBSCRIPTION-->
-    <section class="ftco-section-parallax" id="newsletter">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div
-              class="col-md-7 text-center heading-section heading-section-white ftco-animate"
-            >
-              <h2>
-                Kurs nie jest jeszcze dostępny. Zapisz się na newsletter, a
-                otrzymasz informacje o uruchomieniu kursu.
-              </h2>
-              <!--<h2>Zapisz się na newsletter Kursu modelu C4 dla .NETu.</h2>-->
 
-              <div class="row d-flex justify-content-center mt-4 mb-4">
-                <div class="col-md-8 align-content-center flex-wrap">
-                  <form
-                    class="subscribe-form"
-                    action="https://mrdev.us8.list-manage.com/subscribe/post"
-                    method="post"
-                    id="mc-embedded-subscribe-form"
-                    name="mc-embedded-subscribe-form"
-                    target="_blank"
-                    novalidate
-                  >
-                    <div class="form-group d-flex">
-                      <input
-                        type="hidden"
-                        name="u"
-                        value="b31a824af0b49d8f4dd889504"
-                      />
-                      <input type="hidden" name="id" value="b0ec8356fa" />
-                      <input
-                        type="email"
-                        type="email"
-                        name="MERGE0"
-                        id="MERGE0"
-                        class="form-control"
-                        placeholder="Adres email"
-                      />
-
-                      <button
-                        class="btn btn-light d-block"
-                        data-element="submit"
-                        lass="submit px-3"
-                        id="join_button"
-                      >
-                        <span>Dołączam!</span>
-                      </button>
-
-                      <div id="mce-responses" class="clear">
-                        <div
-                          class="response"
-                          id="mce-error-response"
-                          style="display: none"
-                        ></div>
-                        <div
-                          class="response"
-                          id="mce-success-response"
-                          style="display: none"
-                        ></div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
+    
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-7 text-center heading-section heading-section-black ftco-animate mb-4 bt-4" >
+            <h2>FAQ TODO:obecnie nie ma nic tutajale trzeba zrobić</h2>
           </div>
         </div>
       </div>
     </section>
+
+
+
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-7 text-center heading-section heading-section-black ftco-animate mb-4 bt-4" >
+            <h2> TODO:LINK ZAKUPOWY - OSTATNI</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -1296,7 +1145,7 @@
                   <li>
                     <a href="#"
                       ><span class="icon icon-envelope"></span
-                      ><span class="text">krzysztof@mrdev.pl</span></a
+                      ><span class="text">krzysztof@modelc4.pl</span></a
                     >
                   </li>
                   <li>
@@ -1372,15 +1221,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("#join_button").on("click", function () {
-          var form = document.getElementById("mc-embedded-subscribe-form");
-          form.submit();
-          return false;
-        });
-      });
-    </script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
       var Tawk_API = Tawk_API || {},

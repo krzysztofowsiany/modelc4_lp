@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #78d5ef;
+  --primary: #6b76ff;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -5042,7 +5042,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #78d5ef !important; }
+  border-color: #6b76ff !important; }
 
 .border-secondary {
   border-color: #6c757d !important; }
@@ -7553,20 +7553,24 @@ h1, h2, h3, h4, h5,
   font-weight: 400 !important; }
 
 #timer {
-  width: 50%; }
-  @media (max-width: 991.98px) {
-    #timer {
-      width: 100%; } }
+
+}
+
+
   #timer .time {
     width: 25%;
-    font-size: 46px;
-    font-weight: 400;
-    border-left: 1px solid rgba(0, 0, 0, 0.05);
-    color: #6b76ff; }
-    #timer .time:first-child {
-      border-left: transparent; }
+    font-size: 4rem;
+    font-weight: bold;
+    border-left: 2px solid rgba(0, 0, 0, 0.05);
+    color: #6b76ff; 
+  }
+    #timer .time:first-child 
+    {
+      border-left: transparent; 
+    }
+
     #timer .time span {
-      font-size: 30px;
+      font-size: 3rem;
       display: block;
       color: #000000; }
 
@@ -7653,7 +7657,7 @@ h1, h2, h3, h4, h5,
   background: #f8f9fa !important; }
 
 .bg-primary {
-  background: #6b76ff; }
+  background: #78d5ef; }
 
 .btn {
   cursor: pointer;
@@ -8936,3 +8940,12 @@ textarea.form-control {
       font-weight: 700;
       padding: 10px;
     }
+
+
+    .border-5{
+      border-style:solid !important;
+       border-width: 5px !important;
+
+      }
+
+

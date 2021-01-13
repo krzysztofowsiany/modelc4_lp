@@ -362,12 +362,25 @@ function makeTimer() {
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
 
-		$("#days").html(days + "<span>dni</span>");
-		$("#hours").html(hours + "<span>h</span>");
-		$("#minutes").html(minutes + "<span>m</span>");
-		$("#seconds").html(seconds + "<span>s</span>");		
+		$("div[id=days]").each(function() {
+			$(this).html(days + "<span>dni</span>");
+		});
+
+		$("div[id=hours]").each(function() {
+			$(this).html(hours + "<span>h</span>");
+		});
+
+		$("div[id=minutes]").each(function() {
+			$(this).html(minutes + "<span>m</span>");
+		});
+
+		$("div[id=seconds]").each(function() {
+			$(this).html(seconds + "<span>s</span>");	
+		});
 
 }
+
+
 
 setInterval(function() { makeTimer(); }, 1000);
 
