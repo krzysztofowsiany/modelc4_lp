@@ -750,10 +750,21 @@ h1, h2, h3, h4, h5,
 			color: $primary;
 		}
 		.number {
-			font-size: 60px;
-			font-weight: 500;
+			font-size: 80px;
+			font-weight: 900;
 			color: $primary;
 		}
+	}
+	.regular_price {
+		margin: 0;
+		padding: 0;
+		display: block;
+			font-size: 24px;
+			font-weight: 200;
+			color: red;
+			-webkit-text-decoration-line: line-through; /* Safari */
+   				text-decoration-line: line-through; 
+			
 	}
 	.excerpt {
 		margin-bottom: 20px;

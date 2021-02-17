@@ -341,7 +341,7 @@
 
 
 function makeTimer() {
-		var endDate = "2021/02/20 20:00"
+		var endDate = "2021/02/26 20:00"
 
 		var endTime = new Date(endDate);			
 

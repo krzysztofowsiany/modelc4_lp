@@ -7908,15 +7908,26 @@ h1, h2, h3, h4, h5,
   .block-7 .price {
     margin: 0;
     padding: 0;
-    display: block; }
-    .block-7 .price sup {
-      font-size: 24px;
-      top: -1em;
-      color: #6b76ff; }
+    display: block; 
+    font-size: 50px;
+    font-weight: 600;
+    color: #6b76ff;
+  }
+
     .block-7 .price .number {
-      font-size: 60px;
-      font-weight: 500;
+      font-size: 100px;
+      font-weight: 800;
       color: #6b76ff; }
+      .block-7 .regular_price {
+        margin: 0;
+        padding: 0;
+        display: block; 
+        color:black;
+          font-size: 30px;
+          -webkit-text-decoration-line: line-through; /* Safari */
+          text-decoration-line: line-through; }
+
+
   .block-7 .excerpt {
     margin-bottom: 20px;
     color: #999999; }
