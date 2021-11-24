@@ -63,7 +63,7 @@
         <div class="col-md-6  heading-section  border border-primary  text-center   rounded border-5 ftco-animate">
           <h3>Mając przez wiele lat styczność z tworzeniem i projektowaniem systemów informatycznych, przeważnie
             natrafiałem na problem z tworzeniem <strong>zrozumiałych schematów</strong> architektonicznych.</h3>
-          <h3><strong>Model C4</strong> pozwala zaprowadzić ład i porządek.</h3>
+          <h3><strong>Model C4</strong> pozwala zaprowadzić ład i porządek. Poprzez wykorzystanie podejścia <strong>Diagram as Code</strong> do wizualizacji architektury.</h3>          
         </div>
       </div>
     </div>
@@ -214,7 +214,7 @@
             <div class="text text-center py-3">
               <h2>Krzysztof Owsiany</h2>
               <h4>
-                Programista z ponad 11-letnim doświadczeniem w branży, dzielący się swoją pasją na polskiej scenie IT.
+                Programista z ponad 12-letnim doświadczeniem w branży, dzielący się swoją pasją na polskiej scenie IT.
                 Pomiędzy pracą a wystąpieniami znajdzie się także czas na poprowadzenie warsztatów z EventStormingu i
                 EventModelingu.
               </h4>
@@ -239,7 +239,7 @@
 
       <div class="row justify-content-center text-center pt-4 pb-4">
         <div class="col-md-3 ftco-animate bg-light m-1">
-          <h4>10 tygodniowy program.</h4>
+          <h4>11 tygodniowy program.</h4>
         </div>
 
         <div class="col-md-3 ftco-animate bg-light m-1">
@@ -251,7 +251,15 @@
         </div>
 
         <div class="col ftco-animate bg-light m-1">
+          <h4>Dużo EventStormingu!</h4>
+        </div>
+      </div>
+
+      <div class="row justify-content-center text-center pt-4 pb-4">
+        <div class="col-md-3 ftco-animate bg-light m-1">
           <h4>Bonusy</h4>
+          <h5>- nagrane webinary</h5>
+          <h5>- nagrane warsztaty</h5>
         </div>
       </div>
   </section>
@@ -308,30 +316,36 @@
                 <div class="title">C3<br />Components</div>
                 <span class="module">moduł 6</span>
               </a>
+
               <a class="nav-link ftco-animate" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab"
                 aria-controls="v-pills-7" aria-selected="false">
-                <div class="title">C4<br />Code</div>
+                <div class="title">DesignLevel<br />UML</div>
                 <span class="module">moduł 7</span>
               </a>
 
-
               <a class="nav-link ftco-animate" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab"
-                aria-controls="v-pills-8" aria-selected="false">
-                <div class="title">ADL</br>ADR</div>
-                <span class="module">moduł 8</span>
-              </a>
+              aria-controls="v-pills-8" aria-selected="false">
+              <div class="title">C4<br />Code</div>
+              <span class="module">moduł 8</span>
+            </a>
 
               <a class="nav-link ftco-animate" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab"
                 aria-controls="v-pills-9" aria-selected="false">
-                <div class="title">Inne</br>narzędzia</div>
+                <div class="title">ADL/ADR/CC</div>
                 <span class="module">moduł 9</span>
               </a>
 
-
               <a class="nav-link ftco-animate" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab"
                 aria-controls="v-pills-10" aria-selected="false">
-                <div class="title">Zakończenie</div>
+                <div class="title">Narzędzia</div>
                 <span class="module">moduł 10</span>
+              </a>
+
+
+              <a class="nav-link ftco-animate" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab"
+                aria-controls="v-pills-11" aria-selected="false">
+                <div class="title">Zakończenie</div>
+                <span class="module">moduł 11</span>
               </a>
 
             </div>
@@ -339,6 +353,7 @@
 
           <div class="col-md-12 tab-wrap">
             <div class="tab-content" id="v-pills-tabContent">
+
               <!-- MODUŁ 1 -->
               <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
                 <h2 class="module">Moduł 1: Rozpoczęcie</h2>
@@ -439,6 +454,28 @@
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c4_model.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Skąd się wziął Model C4?</h2>
+                    <h5>
+                      Trochę historii.
+                    </h5>
+                  </div>
+                </div>
+
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c4_model.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>GIT + CI/CD</h2>
+                    <h5>
+                      Powiązanie Modelu C4 z GITem oraz CI/CD.
+                    </h5>
+                  </div>
+                </div>
+
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/why.jpg)"></div>
                   <div class="text pl-md-5">
                     <h2>Dlaczego warto stosować C4?</h2>
@@ -450,12 +487,72 @@
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/why.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Elementy Modelu C4 i stylizowanie</h2>
+                    <h5>
+                      Podstawowe informacje na temat budowy i stylizowania bloczków Modelu C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/structurizr.png)"></div>
                   <div class="text pl-md-5">
-                    <h2>Structurizr.com - przygotowanie.</h2>
+                    <h2>Structurizr - zakładanie konta</h2>
                     <h5>
-                      Rejestracja konta i przygotowanie workspace na stronie Structurizra. Omówienie portalu i
-                      pozyskanie danych potrzebnych do publikowania modelu w Structurizrze.
+                      Rejestracja konta i przygotowanie workspace na stronie Structurizra.
+                    </h5>
+                  </div>
+                </div>
+
+                
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/structurizr.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Structurizr - portal</h2>
+                    <h5>
+                      Przedstawienie portalu Structurizra.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/structurizr.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Structurizr - przykładowy model</h2>
+                    <h5>
+                      Jak wygląda przykładowy model systemu w structurizrze.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/structurizr.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Structurizr - eksportowanie modelu</h2>
+                    <h5>
+                      Wykonywanie eksportu modelu do plików PNG, HTML.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/structurizr.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Structurizr - edytowanie modelu</h2>
+                    <h5>
+                      Edycja modelu na portalu Structurizra.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/structurizr.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Structurizr - API Keys</h2>
+                    <h5>
+                      Pozyskiwanie klucza dostępowego do API. Dzięki nim można zamieszczać model z wykorzystaniem Diagram as Code.
                     </h5>
                   </div>
                 </div>
@@ -463,9 +560,9 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Przygotowanie projektu w .NET Core</h2>
+                    <h2>Instalacja VSCode i .NET Core</h2>
                     <h5>
-                      Przygotowanie projektu aplikacji, z której będzie generowany model w .NET Core.
+                      Instalacja narzędzi do tworzenia Diagram as Code w .NET.
                     </h5>
                   </div>
                 </div>
@@ -473,9 +570,19 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Instalacja biblioteki Structurizr</h2>
+                    <h2>Przykład Cinema z GitHuba</h2>
                     <h5>
-                      Instalacja i konfiguracja biblioteki. Publikowanie przykładowego modelu na stronę Structurizra.
+                      Pokazanie przykładu modelu Cinema w Structurizrze.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Utworzenie projektu do modelu</h2>
+                    <h5>
+                      Przygotowanie projektu dla Diagram as Code z wykorzystaniem Structurizra.
                     </h5>
                   </div>
                 </div>
@@ -492,7 +599,6 @@
                   </div>
                 </div>
               </div>
-
 
               <!-- MODUŁ 3 -->
               <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
@@ -511,7 +617,7 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Wstęp do EventStormingu</h2>
+                    <h2>Czym jest EventStorming</h2>
                     <h5>
                       Czym jest EventStorming? Po co się stosuje? Z czego się składa? Podstawowe informacje.
                     </h5>
@@ -521,7 +627,7 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Omówienie BigPicture EventStorming</h2>
+                    <h2>EventStorming BigPicture</h2>
                     <h5>
                       Przedstawienie elementów i faz BigPicture jakie będą niezbędne przy wyłanianiu modelu C4 z
                       procesu/domeny biznesowej.
@@ -532,9 +638,9 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>C1 a EventStorming BigPicture</h2>
+                    <h2>EventStorming ProcessLevel</h2>
                     <h5>
-                      Jak wyciągnąć kontekst systemu z BigPicture?
+                      Trochę informacji na temat ProcessLevel EventStormingu.
                     </h5>
                   </div>
                 </div>
@@ -542,9 +648,9 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>C2 a EventStorming BigPicture</h2>
+                    <h2>EventStorming DesignLevel</h2>
                     <h5>
-                      Jak wyciągnąć kontenery z BigPicture?
+                      Trochę informacji na temat DesignLevel EventStormingu.
                     </h5>
                   </div>
                 </div>
@@ -552,9 +658,131 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>C3 a EventStorming BigPicture</h2>
+                    <h2>BigPicture EventStorming - legenda</h2>
                     <h5>
-                      Jak wyciągnąć komponenty z BigPicture?
+                      Objaśnienie building bloków BigPicture. Czyli objaśnienie legendy do warsztatu.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Ustalanie celu BigPicture</h2>
+                    <h5>
+                      Jak wyznaczyć cel warsztatu BigPicture.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Kto powinien być na sesji EventStormingu</h2>
+                    <h5>
+                      Dobieranie najlepszych ludzi do warsztatu.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Tablica do EventStormingu</h2>
+                    <h5>
+                      Objaśnienie tablicy, ściany na której prowadzony jest warsztat.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Faza 1 BigPicture - Wild Exploration</h2>
+                    <h5>
+                      Objaśnienie pierwszej fazy warsztatu BigPicture EventStorming.
+                    </h5>
+                  </div>
+                </div>
+
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Faza 2 BigPicture - Enforce The Timeline</h2>
+                    <h5>
+                      Objaśnienie drugiej fazy warsztatu BigPicture EventStorming.
+                    </h5>
+                  </div>
+                </div>
+
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Faza 3 BigPicture - Reverse Narrative</h2>
+                    <h5>
+                      O wstecznej narracji podczas BigPicture.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Faza 4 BigPicture - Actors & Systems</h2>
+                    <h5>
+                      Dodawanie aktorów i systemów w czwartej fazie BigPicture.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Faza 5 BigPicture - Opportunities</h2>
+                    <h5>
+                      Piąta faza w której szukamy szans.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Faza 6 BigPicture - Value Stream Mapping</h2>
+                    <h5>
+                      Szósta faza przeznaczona jest na mapowanie wartości w BigPicture.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Faza 7 BigPicture - Voting</h2>
+                    <h5>
+                      Ostatnia siódma faza to głosowanie.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Jak prowadzić warsztat EventStorming</h2>
+                    <h5>
+                      Objaśnienie jak prowadzić warsztat EventStorming BigPicture.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Zdalny warsztat EventStormingu</h2>
+                    <h5>
+                      Informacje na temat zdalnego warsztatu BigPicture.
                     </h5>
                   </div>
                 </div>
@@ -569,8 +797,6 @@
                   </div>
                 </div>
               </div>
-
-
 
               <!-- MODUŁ 4 -->
               <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-day-4-tab">
@@ -596,13 +822,65 @@
                     </h5>
                   </div>
                 </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c1_context.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Elementy poziomu C1</h2>
+                    <h5>
+                      Z jakich elementów budowany jest kontekst systemu w Modelu C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/map.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Metafora mapy jako poziom C1</h2>
+                    <h5>
+                      Wykorzystanie metafory mapy do wytłumaczenia
+                      poziomu opisu architektury C1.
+                    </h5>
+                  </div>
+                </div>
+
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/galaxy.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Metafora opisu poziomu kontekstu systemu</h2>
+                    <h2>Metafora Galaktyki jako poziom C1</h2>
                     <h5>
-                      Wykorzystanie metafory galaktyki do wytłumaczenia
+                      Wykorzystanie metafory Galaktyki do wytłumaczenia
                       poziomu opisu architektury C1.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c1_context.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Po co używać poziomu C1?</h2>
+                    <h5>
+                      Wyjaśnienie po co? Wykorzystywać kontekst systemu z modelu C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c1_context.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Do kogo jest adresowany poziom C1?</h2>
+                    <h5>
+                      Kto jest głównym odbiorcą poziomu kontekstu systemu.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>C1 a EventStorming BigPicture</h2>
+                    <h5>
+                      Wykorzystywanie BigPicture do stworzenia poziomu C1.
                     </h5>
                   </div>
                 </div>
@@ -610,11 +888,29 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Implementacja</h2>
+                    <h2>Klasyczna implementacja poziomu C1</h2>
                     <h5>
-                      Wykorzystanie języka C# do przygotowania kodu
-                      deklarującego architekturę przykładu na poziomie C1
-                      czyli kontekstu.
+                      Wykorzystanie języka C# do przygotowania Diagram as Code w sposób klasyczny.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Stylizowanie poziomu C1</h2>
+                    <h5>
+                      Stylizowanie bloków modelu C4 z wykorzystaniem Structurizr i C#.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Refaktoryzacja podejścia klasycznego</h2>
+                    <h5>
+                      Ulepszenie kodu klasycznej implementacji Diagram as Code w Structurizrze.
                     </h5>
                   </div>
                 </div>
@@ -648,29 +944,132 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/c2_containers.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Wprowadzenie do C2 - Containers</h2>
+                    <h2>Wprowadzenie do poziomu C2</h2>
                     <h5>
                       Przedstawienie poziomu C2 wchodzącego w skład modelu C4.
                     </h5>
                   </div>
                 </div>
+
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/solarsystem.jpg)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c2_containers.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Metafora opisu poziomu kontenerów</h2>
+                    <h2>Kontenery w poziomie C2</h2>
                     <h5>
-                      Wykorzystanie metafory układu słonecznego do
+                      Czym są kontenery w poziomie C2.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c2_containers.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Ludzie i Systemy w poziomie C2</h2>
+                    <h5>
+                      Omówienie ludzi i systemów na poziomie C2.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c2_containers.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Interakcje na poziomie C2</h2>
+                    <h5>
+                      Informacje na temat interakcji na poziomie C2.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/map.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Metafora mapy jako poziomu c2</h2>
+                    <h5>
+                      Wykorzystanie metafory mapy do
                       wytłumaczenia poziomu opisu architektury C2.
                     </h5>
                   </div>
                 </div>
+                
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/solarsystem.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Metafora Układu Słonecznego jako C2</h2>
+                    <h5>
+                      Wykorzystanie metafory Układu Słonecznego do
+                      wytłumaczenia poziomu opisu architektury C2.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c2_containers.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Po co używać poziomu C2?</h2>
+                    <h5>
+                      Wyjaśnienie dlaczego należy używać poziomu kontenerów.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c2_containers.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Do kogo jest adresowany poziom C2?</h2>
+                    <h5>
+                      Wskazanie adresatów poziomu kontenerów.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c2_containers.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>C2 a EventStorming BigPicture</h2>
+                    <h5>
+                      Jak wykorzystać BigPicture do stworzenia poziomu kontenerów.
+                    </h5>
+                  </div>
+                </div>
+
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Implementacja</h2>
+                    <h2>Klasyczna implementacja poziomu C2</h2>
                     <h5>
-                      Deklaracja poziomu C2 z wykorzystaniem kodu C#.
-                      Powiązania pomiędzy poziomami C4.
+                      Implementacja poziomu kontenerów z wykorzystaniem Structurizr w sposób klasyczny.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Stylizowanie poziomu C2</h2>
+                    <h5>
+                      Stylizowanie elementów poziomu C2 z wykorzystaniem C# i biblioteki Structurizr.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Refaktyrzacja podejścia klasycznego</h2>
+                    <h5>
+                     Ulepszenie kodu na poziomie C2 dla podejścia klasycznego.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Refaktoryzacja relacji</h2>
+                    <h5>
+                      Ulepszenie implementacji relacji dla podejścia klasycznego.
                     </h5>
                   </div>
                 </div>
@@ -712,12 +1111,114 @@
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c3_components.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Komponenty w poziomie C3</h2>
+                    <h5>
+                      Przedstawienie komponentów z poziomu C3 wchodzącego w skład modelu C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c3_components.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Ludzie, Systemy i Kontenery w poziomie C3</h2>
+                    <h5>
+                      Elementy z jakich składa się poziom C3 w modelu C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c3_components.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Interakcje na poziomie C3</h2>
+                    <h5>
+                      Jakie interakcje zachodzą między elementami na poziomie C3.
+                    </h5>
+                  </div>
+                </div>
+
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/map.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Metafora mapy jako poziom C3</h2>
+                    <h5>
+                      Wykorzystanie metafory mapy do wytłumaczenia
+                      poziomu opisu architektury C3.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/earth.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Metafora opisu poziomu komponentów</h2>
+                    <h2>Metafora Planety jako C3</h2>
                     <h5>
-                      Wykorzystanie metafory planety (ziemia) do wytłumaczenia
+                      Wykorzystanie metafory Planety (ziemia) do wytłumaczenia
                       poziomu opisu architektury C3.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c3_components.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Po co używać poziomu C3?</h2>
+                    <h5>
+                      Wyjaśnienie dlaczego powinno się stosować poziom C3.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c3_components.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Do kogo jest adresowany poziom C3?</h2>
+                    <h5>
+                      Informacja na temat adresatów poziomu komponentów.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Pod-domeny i ich typy</h2>
+                    <h5>
+                     Wyjaśnienie czym są domeny i ich typy.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Jak dzielić na pod-domeny?</h2>
+                    <h5>
+                     Przedstawienie sposobu podziału na pod-domeny.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Dzielenie na pod-domeny w praktyce</h2>
+                    <h5>
+                      Przykład dzielenia na pod-domeny w BigPicture.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>C3 a EventStorming BigPicture</h2>
+                    <h5>
+                      Wyciąganie informacji dla poziomu C3 z BigPicture.
                     </h5>
                   </div>
                 </div>
@@ -725,10 +1226,30 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Implementacja</h2>
+                    <h2>Klasyczna implementacja poziomu C3</h2>
                     <h5>
                       Wytłumaczenie na przykładzie jak opisywać poziom C3 z
                       wykorzystaniem kodu C#.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Stylizowanie poziomu C3</h2>
+                    <h5>
+                      Wykorzystanie biblioteki Structurizr do stylizowania diagramów architektury.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/implement.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Refaktoryzacja podejścia klasycznego</h2>
+                    <h5>
+                      Kolejna refaktoryzacja klasycznego podejścia do Diagram as Code w Structurizrze.
                     </h5>
                   </div>
                 </div>
@@ -747,7 +1268,163 @@
 
               <!-- MODUŁ 7 -->
               <div class="tab-pane fade" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-day-7-tab">
-                <h2 class="module">Moduł 7: C4 - Code</h2>
+                <h2 class="module">DesignLevel -> UML</h2>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/hello.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Wstęp</h2>
+                    <h5>
+                      Powitanie w module, o czym będzie moduł.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Wstęp do DesignLevel EventStorming</h2>
+                    <h5>
+                      Podstawowe informacje na temat DesignLevelu.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Rozwinięcie legendy EventStormingu</h2>
+                    <h5>
+                      Dodanie do legendy kolejnych building bloków EventStormingu.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Picture that explains almost everything</h2>
+                    <h5>Cały koncept EventStormingu na jednym rysunku.</h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Koncepcyjny przykład modelowania</h2>
+                    <h5>
+                      Przedstawienie jak buduje się DesignLevel z karteczek samoprzylepnych.
+                    </h5>
+                  </div>
+                </div>
+
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Modelowanie fragmentu domeny</h2>
+                    <h5>
+                      Modelowanie wybranego fragmentu domeny z wykorzystaniem DesignLevelu.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/uml_basics.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>UML - diagram klas</h2>
+                    <h5>
+                      Ogólnie o UMLu.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/uml_basics.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Diagram klas - klasa i obiekt</h2>
+                    <h5>
+                      Wyjaśnienie czym jest klasa i obiekt w notacji UMLowej.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/uml.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Klasa abstrakcyjna i interfejs</h2>
+                    <h5>
+                      Wyjaśnienie czym jest klasa abstrakcyjna i interfejs i obiekt w notacji UMLowej.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/uml.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Diagram klas - zależności</h2>
+                    <h5>
+                      Wyjaśnienie czym jest zależność w notacji UMLowej.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/uml.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Diagram klas - asocjacje</h2>
+                    <h5>
+                      Wyjaśnienie czym są asocjacje w notacji UMLowej.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/uml.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Diagram klas - agregacje</h2>
+                    <h5>
+                      Wyjaśnienie czym są agregacje w notacji UMLowej.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/uml.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Diagram klas - generalizacja</h2>
+                    <h5>
+                      Wyjaśnienie czym jest generalizacja w notacji UMLowej.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Diagram klas na bazie DesignLevelu</h2>
+                    <h5>
+                      Wykorzystanie DesignLevel EventStorming jako bazę do stworzenia Diagramu Klas w UMLu.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/homework.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Zadanie domowe</h2>
+                    <h5>
+                      Omówienie tematu i zakresu zadania domowego dotyczącego
+                      poziomu DesignLevelu i UMLa.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+
+               <!-- MODUŁ 8 -->
+               <div class="tab-pane fade" id="v-pills-8" role="tabpanel" aria-labelledby="v-pills-day-8-tab">
+                <h2 class="module">Moduł 8: C4 - Code</h2>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/hello.jpg)"></div>
@@ -762,7 +1439,7 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/c4_code.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Wprowadzenie do C4 - Code</h2>
+                    <h2>Wprowadzenie do poziomu C4</h2>
                     <h5>
                       Przedstawienie ostatniego poziomu C4 odnoszącego się do
                       kodu. Czyli wykorzystanie UMLa.
@@ -771,9 +1448,20 @@
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/map.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Metafora mapy jako poziomu C4</h2>
+                    <h5>
+                      Wykorzystanie metafory mapy do
+                      wytłumaczenia poziomu opisu architektury C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/people.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Metafora opisu poziomu klas</h2>
+                    <h2>Metafora życia na planecie jako C4</h2>
                     <h5>
                       Wykorzystanie metafory życia na ziemi (ludzi) do
                       wytłumaczenia poziomu opisu architektury C4.
@@ -782,31 +1470,40 @@
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/uml_basics.jpg)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c4_code.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Notacja UML - podstawy</h2>
-                    <h5>Wprowadzenie podstawowych elementów notacji UMLa.</h5>
+                    <h2>Po co używać poziomu C4?</h2>
+                    <h5>Wyjaśnienie powodów stosowania poziomu C4.</h5>
                   </div>
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/uml.jpg)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c4_code.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Implementacja - UML</h2>
+                    <h2>Do kogo adresowany jest poziom C4?</h2>
                     <h5>
-                      Wykorzystanie notacji UMLa do przygotowania diagramu
-                      klas.
+                      Wskazanie odbiorców informacji zawartych w poziomie kodu.
                     </h5>
                   </div>
                 </div>
 
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/plantuml.png)"></div>
                   <div class="text pl-md-5">
-                    <h2>EventStorming - DesignLevel</h2>
+                    <h2>PlantUML</h2>
                     <h5>
-                      Modelowanie implementacji z wykorzystaniem DesignLevel. Rozszerzenie notacji EventStormingu.
+                      Przedstawienie narzędzia PlantUML
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/plantuml.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Implementacja C4 w PlantUMLu</h2>
+                    <h5>
+                      Przykład tworzenia Diagram as Code poziomu C4 w PlantUMLu.
                     </h5>
                   </div>
                 </div>
@@ -824,10 +1521,9 @@
 
               </div>
 
-
-              <!-- MODUŁ 8 -->
-              <div class="tab-pane fade" id="v-pills-8" role="tabpanel" aria-labelledby="v-pills-day-8-tab">
-                <h2 class="module">Moduł 8: Architecture Decision Log i Architecture Decision Record</h2>
+              <!-- MODUŁ 9 -->
+              <div class="tab-pane fade" id="v-pills-9" role="tabpanel" aria-labelledby="v-pills-day-9-tab">
+                <h2 class="module">Moduł 9: Architecture Decision Log, Architecture Decision Record i Conventional Commits</h2>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/hello.jpg)"></div>
@@ -845,7 +1541,7 @@
                   <div class="text pl-md-5">
                     <h2>Architecture Decision Log</h2>
                     <h5>
-                      Objaśnienie idei. Sposoby prowadzenia.
+                      Objaśnienie czym sa logi architektoniczne.
                     </h5>
                   </div>
                 </div>
@@ -859,37 +1555,69 @@
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/adl.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Po co zapisywać logi?</h2>
+                    <h5>Wyjaśnienie powodów zapisywania logów architektonicznych.</h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/structurizr.png)"></div>
                   <div class="text pl-md-5">
-                    <h2>Decyzje architektoniczne w Structurizr.</h2>
+                    <h2>Decyzje architektoniczne w Structurizr</h2>
                     <h5>Wykorzystanie platformy Structurizr jako miejsca przechowywania decyzji architektonicznych.</h5>
                   </div>
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/tools.jpg)"></div>
-                  <div class="text pl-md-5">
-                    <h2>Narzędzie adr-log.</h2>
-                    <h5>MADR - Markdown Architecture Decision Log z wykorzystaniem narzędzia adr-log.</h5>
-                  </div>
-                </div>
-
-                <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/tools.jpg)"></div>
-                  <div class="text pl-md-5">
-                    <h2>Narzędzie adr-tools.</h2>
-                    <h5>Wykorzystanie narzędzia konsolowego do prowadzenia historii decyzji architektonicznych.</h5>
-                  </div>
-                </div>
-
-                <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/conventionalcommits.png)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/cc.png)"></div>
                   <div class="text pl-md-5">
                     <h2>Conventional Commits</h2>
-                    <h5>Wykorzystanie notacji commitów GITa do oznaczania decyzji architektonicznych.</h5>
+                    <h5>Wprowadzenie do Conventional Commits w GITcie.</h5>
                   </div>
                 </div>
 
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/cc.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Po co używać Conventional Commits?</h2>
+                    <h5>Jakie są powody stosowania Conventional Commits w GITcie.</h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/adr.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Wzory ADRów</h2>
+                    <h5>Szkielet wpisu architektonicznego - jak może wyglądać.</h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/adl.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Wprowadzenie ADLa w projekcie</h2>
+                    <h5>Wprowadzanie ADLa w swoim projekcie.</h5>
+                  </div>
+                </div>
+                
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Przykładowa zmiana w projekcie</h2>
+                    <h5>Naniesienie zmiany w całym projekcie.</h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/adr.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>ADR do wprowadzonej poprawki</h2>
+                    <h5>Dodanie wpisu decyzji architektonicznej w odniesieniu do wprowadzonej zmiany.</h5>
+                  </div>
+                </div>
+              
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/homework.png)"></div>
                   <div class="text pl-md-5">
@@ -902,9 +1630,9 @@
               </div>
 
 
-              <!-- MODUŁ 9 -->
-              <div class="tab-pane fade" id="v-pills-9" role="tabpanel" aria-labelledby="v-pills-day-9-tab">
-                <h2 class="module">Moduł 9: Inne narzędzia</h2>
+              <!-- MODUŁ 10 -->
+              <div class="tab-pane fade" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-day-10-tab">
+                <h2 class="module">Moduł 10: Inne narzędzia</h2>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/hello.jpg)"></div>
@@ -928,29 +1656,45 @@
 
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/vscode.png)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/yed.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Plugin PlantUML dla VS Code</h2>
+                    <h2>yED</h2>
                     <h5>
-                      Wykorzystanie dodatku PlantUML do Visual Studio Code w celu generowania modeli C4.
+                      Wykorzystanie edytora yED do wizualizacji architektury.
                     </h5>
                   </div>
                 </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/graphviz.png)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/archimate.png)"></div>
                   <div class="text pl-md-5">
-                    <h2>Graphviz</h2>
-                    <h5>Rysowanie modeli C4 z wykorzystaniem Graph Visualization Software.</h5>
+                    <h2>Archi</h2>
+                    <h5>Wykorzystanie narzędzia Archi do tworzenia modelu C4.</h5>
                   </div>
                 </div>
 
+                
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/drawio.webp)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Draw.io</h2>
+                    <h5>Rysowanie architektury z wykorzystaniem draw.io i dodatku z elementami C4.</h5>
+                  </div>
+                </div>
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/archimate.png)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/mural.png)"></div>
                   <div class="text pl-md-5">
-                    <h2>Archi i ArchiMate</h2>
-                    <h5>Wykorzystanie języka ArchiMate i narzędzia Archi do tworzenia modelu C4.</h5>
+                    <h2>Mural</h2>
+                    <h5>Rysowanie diagramów C4 z wykorzystaniem Mural.</h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/lucidchart.jfif)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Lucid</h2>
+                    <h5>Rysowanie diagramów C4 z wykorzystaniem Lucid.</h5>
                   </div>
                 </div>
 
@@ -962,19 +1706,21 @@
                   </div>
                 </div>
 
+
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/drawio.webp)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/tools.png)"></div>
                   <div class="text pl-md-5">
-                    <h2>C4 w draw.io</h2>
-                    <h5>Rysowanie architektury z wykorzystaniem draw.io i dodatku z elementami C4.</h5>
+                    <h2>Adr-log</h2>
+                    <h5>Wprowadzanie decyzji architektonicznych z wykorzystanie adr-loga.</h5>
                   </div>
                 </div>
 
+                
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/lucidchart.jfif)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/tools.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Lucidchart</h2>
-                    <h5>Rysowanie diagramów C4 z wykorzystaniem Lucidchart.</h5>
+                    <h2>Adr-tools</h2>
+                    <h5>Wprowadzanie decyzji architektonicznych z wykorzystanie adr-tools.</h5>
                   </div>
                 </div>
 
@@ -991,9 +1737,9 @@
               </div>
 
 
-              <!-- MODUŁ 10 -->
-              <div class="tab-pane fade" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-day-10-tab">
-                <h2 class="module">Moduł 10: Zakończenie</h2>
+              <!-- MODUŁ 11 -->
+              <div class="tab-pane fade" id="v-pills-11" role="tabpanel" aria-labelledby="v-pills-day-11-tab">
+                <h2 class="module">Moduł 11: Zakończenie</h2>
 
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
@@ -1009,12 +1755,51 @@
 
 
                 <div class="speaker-wrap ftco-animate d-flex p-1">
-                  <div class="img speaker-img mr-2" style="background-image: url(images/nextsteep.jpg)"></div>
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>Co dalej</h2>
+                    <h2>EventStorming BigPicture</h2>
                     <h5>
-                      Kilka wniosków na temat jak wykorzystywać model C4. I co
-                      czynić dalej?
+                      BigPicture w tworzeniu Modelu C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/c4_model.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>System Context, Containers, Components</h2>
+                    <h5>
+                      Poziomy C1-C3 w Modelu C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/es.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>EventStorming DesignLevel, UML i C4</h2>
+                    <h5>
+                      Wykorzystanie DesignLevel do utworzenia UMLa dla poziomu C4.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/adr.png)"></div>
+                  <div class="text pl-md-5">
+                    <h2>ADL, ADR i CC</h2>
+                    <h5>
+                      Gdzie w tym wszystkim są logi decyzji architektonicznych i kontrola wersji.
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="speaker-wrap ftco-animate d-flex p-1">
+                  <div class="img speaker-img mr-2" style="background-image: url(images/tools.jpg)"></div>
+                  <div class="text pl-md-5">
+                    <h2>Narzędzia</h2>
+                    <h5>
+                      Narzędzia wykorzystywane w całym procesie tworzenia Diagram as Code.
                     </h5>
                   </div>
                 </div>
@@ -1022,16 +1807,11 @@
                 <div class="speaker-wrap ftco-animate d-flex p-1">
                   <div class="img speaker-img mr-2" style="background-image: url(images/theend.jpg)"></div>
                   <div class="text pl-md-5">
-                    <h2>The End</h2>
+                    <h2>Zakończenie</h2>
                     <h5>Podziękowanie za razem spędzony czas.</h5>
                   </div>
                 </div>
               </div>
-
-
-
-
-
 
 
             </div>
@@ -1055,31 +1835,32 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-md-8 ftco-animate">
           <div class="block-7 bg-warning">
-            <h3>▇ <strong>10 tygodniowy</strong>, bezterminowy dostęp do platformy.</h3>
+            <h3>▇ <strong>11 tygodniowy</strong>, bezterminowy dostęp do platformy.</h3>
             <h3>▇ Lekcje w formie wideo.</h3>
             <h3>▇ <strong>Zadania domowe</strong> po ukończeniu każdego modułu.</h3>
             <h3>▇ Wsparcie i weryfikację zadań domowych.</h3>
             <h3>▇ Dostęp do repozytorium z kodem.</h3>
             <h3>▇ Przedstawienie narzędzi wspierających model C4.</h3>
             <h3>▇ <strong>Wykorzystanie EventStormingu</strong> w tworzeniu modelu.</h3>
-            <h3>▇ Ponad 10 godzin nagrań wideo.</h3>
+            <h3>▇ Ponad 13 godzin nagrań wideo.</h3>
             <h3>▇ Podstawy UML.</h3>
             <h3>▇ EventStorming <strong>DesignLevel</strong> dla poziomu C4.</h3>
-            <h3>▇ Omówienie i prowadzenie: Architecture Decision Log, Architecture Decision Record.</h3>
+            <h3>▇ Omówienie i prowadzenie: Architecture Decision Log, Architecture Decision Record oraz Conventional Commits.</h3>
             <h3>▇ Dostęp do zamkniętej grupy uczestników na facebooku.</h3>
             <h3>▇ Nagrania audio do pobrania i słuchania.</h3>
             <h3>▇ Wspólna sesja EventStormigu <strong>BigPicture</strong> w grupie do 7 osób.</h3>
-            <h3>▇ Bonusy: dokumenty, check-listy.</h3>
+            <h3>▇ Bonus 1: Dostęp do nagrań webinarów.</h3>
+            <h3>▇ Bonus 2: Dostęp do nagranych sesji EventStormingowych.</h3>
           </div>
         </div>
 
         <div class="col-md-4 ftco-animate ">
           <div class="block-7 bg-success">
             <div class="text-center ">
-              <span class="regular_price">Cena regularna: 997 PLN</span>
+              <span class="regular_price">Cena regularna: 1297 PLN</span>
               <br />
-              <span class="price text-light">Cena</span>
-              <span class="price "><span class="number text-light">597</span></span>
+              <span class="price text-light">Black Friday</span>
+              <span class="price "><span class="number text-light">497</span></span>
               <span class="price text-light">PLN</span>
             </div>
           </div>
@@ -1094,8 +1875,9 @@
       <div class="row d-flex justify-content-center ">
         <div class="col-md-7 text-center  heading-section  ftco-animate mb-4 bt-4">
           <h2 class="text-light p-4">Do kiedy można kupić?</h2>
-          <h3 class="text-light">Oferta ważna jest do <strong>20.00 w piątek - 26 lutego 2021</strong>.</h3>
-          <h3 class="text-light">Ponowne otwarcie sprzedaży dopiero w <strong>czerwcu 2021 roku</strong>.</h3>
+          <h3 class="text-light">Oferta ważna jest do <strong>24.00 w poniedziałek - 29 listopada 2021</strong>.</h3>
+          <h3 class="text-light">Ponowne otwarcie sprzedaży w <strong>2022 roku</strong>.</h3>
+          <h3 class="text-light"><strong>UWAGA! w 2022 roku cena będzie tylko wyższa.</strong></h3>
           <a href="https://secure.tpay.com/?h=060d2a4e847c93f27d6def8deff89910d4ece95f" target="_blank"
             class="btn btn-primary p-2">
             <h2 class="text-light">Nie czekam! Dołączam!</h2>
@@ -1156,7 +1938,7 @@
           <h2 class="m-2">Gwarancja satysfakcji</h2>
           <h4>
             Na kurs udzielana jest 100% gwarancja satysfakcji. Oznacza to, że możesz zwrócić kurs do
-            <strong>26 marca 2021</strong>.
+            <strong>końca 2021 roku</strong>.
             Bez podania przyczyny.
           </h4>
 
@@ -1172,8 +1954,6 @@
       </div>
     </div>
   </section>
-
-
 
   <section class="ftco-section bg-light">
     <div class="container">
@@ -1215,7 +1995,7 @@
                 <div class="card-body">
                   <h5>
                     Na kurs udzielana jest 100% gwarancja satysfakcji. Oznacza to, że możesz zwrócić kurs do
-                    <strong>10 marca 2021</strong>.
+                    <strong>końca 2021 roku</strong>.
                     Bez podania przyczyny.
                   </h5>
                 </div>
